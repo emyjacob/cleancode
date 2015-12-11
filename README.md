@@ -12,9 +12,12 @@ This script will cover all JS files in specified folder and will do the followin
 While removing statements ends with ';'.
 If not, it will look for the next ';', and removes the code until there.
 
-**Command to execute:** node clean.js
+**Command to execute:** `node clean.js`
 
 **Dependency:** js-beautify (npm install js-beautify)
 
+To retain any comments in the code add the text `:retain` at the beginning of the comment.
+
+To retain any console.* method, use `/* :retain */` after console.* method
 
 
