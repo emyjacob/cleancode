@@ -1,5 +1,5 @@
 # cleancode
-A script which helps to automate, cleanup your code by removing all console.* methods, commented codes, empty lines and also indent the code.
+A script which helps to automate, cleanup your code by removing all console.* methods, commented codes, empty lines and beautify code with the help of js-neautify npm module.
 This script will cover all JS files in specified folder and will do the following tasks.
 
 1.	Remove all console.* methods.
